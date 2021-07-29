@@ -64,9 +64,6 @@
 }
 
 .header__main-illustration{
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   width: 756px;
   height: 608px;
   position: absolute;
@@ -147,7 +144,6 @@
   font-size: 24px;
   font-weight: normal;
   margin: auto;
-  padding-bottom: 60px;
   text-align: center;
 }
 
@@ -172,6 +168,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text{
@@ -179,10 +176,6 @@
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0 0;
-}
-
-.table__heading_text-space{
-  margin-bottom: 20px;
 }
 
 .feynman{
@@ -276,6 +269,7 @@
 
 .footer{
   box-sizing: border-box;
+  min-height: 350px;
   background-color: #1f1f1f;
   padding: 60px 0 40px;
   display: flex;
@@ -299,7 +293,7 @@
 
 .footer__author{
   color:white;
-  margin: 18px;
+  margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
