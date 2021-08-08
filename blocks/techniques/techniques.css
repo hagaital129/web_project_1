@@ -1,0 +1,7 @@
+@import url(/blocks/cards/cards.css);
+@import url(/blocks/section/section.css);
+
+.techniques{
+  margin: 100px auto 0;
+  width: 80%;
+}

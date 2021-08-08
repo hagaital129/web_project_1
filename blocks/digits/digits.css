@@ -1,0 +1,7 @@
+@import url(/blocks/table/table.css);
+@import url(/blocks/section/section-title/section-title.css);
+@import url(/blocks/section/section-subtitle/section-subtitle.css);
+
+.digits{
+  margin-top: 100px;
+}
