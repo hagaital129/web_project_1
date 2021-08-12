@@ -1,5 +1,5 @@
-@import url(../../images/logo_place_header.png);
-@import url(../../images/logo_place_footer.png);
+@import url(./_place/logo_place_header.css);
+@import url(./_place/logo_place_footer.css);
 
 .logo{
   width: 154px;

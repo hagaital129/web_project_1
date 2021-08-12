@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Learning how to learn</title>
 </head>
@@ -37,34 +38,34 @@
       <section class="techniques">
         <h2 class="section-title">Learning Techniques</h2>
         <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
-        <div class="cards">
-          <div class="cards__item">
+        <ul class="cards">
+          <li class="cards__item">
             <img class="cards__image" src="./images/cards-attention.png" alt="White book with black letters">
             <h3 class="cards__title">Two Ways of Thinking </h3>
             <p class="cards__description">Deep understanding comes from being able to toggle back and forth between focused and diffused thinking.</p>
-        </div>
-        <div class="cards__item">
+          </li>
+        <li class="cards__item">
           <img class="cards__image" src="./images/cards-recall.png" alt="Museum statue, child thinking">
           <h3 class="cards__title">Recall</h3>
           <p class="cards__description">Improving your ability to remember key bits of information helps to connect different parts of the brain.</p>
-        </div>
-        <div class="cards__item">
+        </li>
+        <li class="cards__item">
           <img class="cards__image" src="./images/cards-interleaving.png" alt="Big bridge with a lot of people on it. taken with a fish-eye filter.">
           <h3 class="cards__title">Interleaving </h3>
           <p class="cards__description">When you learn multiple skills at the same time, they reinforce each other.</p>
-        </div>
-        <div class="cards__item">
+        </li>
+        <li class="cards__item">
           <img class="cards__image" src="./images/cards-question.png" alt="An empty lobby of a big building with windows">
           <h3 class="cards__title">Questions</h3>
           <p class="cards__description">When listening to your teacher, think up a good question, something that you're really itching to know.</p>
-        </div>
-        <div class="cards__item">
+        </li>
+        <li class="cards__item">
           <img class="cards__image" src="./images/cards-competence.png" alt="Hand holding book horizontally">
           <h3 class="cards__title">Illusion of Competence</h3>
           <p class="cards__description">Test yourself, write it down, tell other people, and repeat the process in different settings. Only then can you be truly certain you've understood something.
           </p>
-        </div>
-        </div>
+        </li>
+      </ul>
       </section>
       <section class="video">
         <h2 class="section-title">TED talks</h2>
@@ -133,10 +134,10 @@
         <div class="khan__container">
           <p class="khan__author">Salman Khan</p>
           <h2 class="khan__title">The One World Schoolhouse</h2>
-          <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of
+          <blockquote class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of
             students worldwide. The One World Schoolhouse is a must-read for all
             who are committed to improving education so students everywhere can
-            gain the skills and knowledge to be successful in school, careers and life.</p>
+            gain the skills and knowledge to be successful in school, careers and life.</blockquote>
             <p class="khan__quote-author">George Lucas</p>
             <p class="khan__quote-author-subline">Filmmaker</p>
             <div class="khan__book-container">
@@ -195,12 +196,28 @@
       <section class="resources">
         <h2 class="section-title">Useful resources</h2>
         <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
-        <div class="resources__logo-zone">
-          <a class="resources__logo resources__logo_ted-ed" href="#"></a>
-          <a class="resources__logo resources__logo_medium" href="#"></a>
-          <a class="resources__logo resources__logo_dezeen" href="#"></a>
-          <a class="resources__logo resources__logo_goodreads" href="#"></a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li>
+            <a class="resources__logo" href="#">
+              <img class="resources__logo" src="./images/logo/resources-tedED.png" alt="Teded logo">
+            </a>
+          </li>
+          <li>
+            <a class="resources__logo" href="#">
+              <img class="resources__logo" src="./images/logo/resources-Medium.png" alt="Medium logo">
+            </a>
+          </li>
+          <li>
+            <a class="resources__logo" href="#">
+              <img class="resources__logo" src="./images/logo/resources-dezeen.png" alt="Dee zeen logo">
+            </a>
+          </li>
+          <li>
+            <a class="resources__logo" href="#">
+              <img class="resources__logo" src="./images/logo/resources-goodreads.png" alt="Good reads logo">
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
@@ -209,7 +226,7 @@
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">&copy; Hagai Tal 2021</p>
         </div>
-          <div class="footer__column footer__column_content_about">
+          <nav class="footer__column footer__column_content_about">
             <h3 class="footer__column-heading">About Practicum by Yandex</h3>
             <ul class="footer__list">
               <li>
@@ -222,7 +239,7 @@
                 <a class="footer__column-link" href="#">Professions</a>
               </li>
             </ul>
-          </div>
+          </nav>
           <div class="footer__column footer__column_content_social">
             <h3 class="footer__column-heading">Social media</h3>
             <ul class="footer__list">

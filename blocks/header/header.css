@@ -4,7 +4,7 @@
 @import url(./__subtitle/header__subtitle.css);
 @import url(./__title/header__title.css);
 @import url(../logo/logo.css);
-@import url(../logo/_place_header/logo_place_header.css);
+@import url(../logo/_place/logo_place_header.css);
 
 .header {
   height: 100vh;

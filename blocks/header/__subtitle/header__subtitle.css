@@ -2,10 +2,10 @@
   width: 388px;
   font-size: 18px;
   line-height: 25px;
-  margin: 0 0 0 64px;
+  margin: 0;
   font-weight: normal;
   position: absolute;
   bottom: 30px;
-  left: 0;
+  left: 64px;
   z-index: 2;
 }

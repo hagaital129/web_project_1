@@ -10,4 +10,6 @@
   align-content: space-between;
   flex-wrap: wrap;
   text-align: center;
+  list-style-type: none;
+  padding: 0;
 }
